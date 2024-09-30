@@ -1,7 +1,8 @@
-<?php
+
 Q.N. 1: You need to create an array to store product details, such as product_name, price, quantity_in_stock. 
 Write a function to check if a specific product is in stock.
 ```
+<?php
 $products = [
     ["product_name" => "Laptop", "price" => 75000, "quantity_in_stock" => 10],
     ["product_name" => "Mouse", "price" => 1500, "quantity_in_stock" => 50],
