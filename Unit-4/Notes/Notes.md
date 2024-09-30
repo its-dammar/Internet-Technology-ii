@@ -1,4 +1,3 @@
-Below are detailed theory notes for each topic in Unit 4 with definitions, explanations, important points, differences, and examples.
 
 ### **Unit 4: Form Handling and Data Validation in PHP**
 
