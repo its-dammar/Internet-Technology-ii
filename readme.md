@@ -57,9 +57,7 @@ PHP-Course
 
 *************************************
 
-# PHP Course Structure
-
-```graph
+**Course Structure**
 Unit 1 [4 Hrs]
     ├── 1.1 Understanding server-side scripting and PHP Programming
     ├── 1.2 Installing and setting up PHP development environment (XAMPP, WAMP, or alternatives)
