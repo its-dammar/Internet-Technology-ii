@@ -30,7 +30,7 @@ echo "<hr>"; // Divider
 ---
 
 
-Create an array with your expenses categorized by items like rent, groceries, utilities, and entertainment. Write a function to calculate the total monthly expense.
+Q.N. 2: Create an array with your expenses categorized by items like rent, groceries, utilities, and entertainment. Write a function to calculate the total monthly expense.
 
 ```
 $expenses = [
