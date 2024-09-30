@@ -26,6 +26,7 @@ echo "Keyboard status: " . isProductInStock($products, $products[2]["product_nam
 
 echo "<hr>"; // Divider
 ?>
+```
 ---
 
 
@@ -52,6 +53,7 @@ function calculateTotalExpenses($expenses) {
 echo "Total Monthly Expense: NPR " . calculateTotalExpenses($expenses);
 echo "<hr>"; // Divider
 ?>
+```
 ---
 
 Q.N. 3: Create an array to store students' names and their marks. Write a function to
@@ -83,7 +85,7 @@ echo "Top Student: " . $topStudent['name'] . " with " . $topStudent['marks'] . "
 echo "<hr>"; // Divider
 
 ?>
-
+```
 ---
 
 Q.N. 4: Create an array storing employee names and their hourly wages. Write a
@@ -117,7 +119,7 @@ foreach ($monthlySalaries as $salary) {
 }
 echo "<hr>"; // Divider
 />
-
+```
 ---
 
 Q.N. 5: Suppose you have an online shopping cart, and you want to calculate the total
@@ -176,5 +178,5 @@ echo "Tax amount (13%): NPR " . $taxAmount . "<br>";
 $finalAmount = $totalAmount + $taxAmount;
 echo "Final amount to be paid: NPR " . $finalAmount;
 ?>
-
+```
 ---
