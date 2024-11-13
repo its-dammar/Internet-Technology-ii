@@ -436,34 +436,33 @@ The `dashboard.php` file serves as the main page for logged-in users, displaying
    - This page would check if a user is logged in, and if so, displays the user dashboard.
 
    ```php
-   <?php
-   session_start();
-   if (!isset($_SESSION['user_id'])) {
-       header("Location: index.php"); // Redirect to login if not logged in
-       exit;
-   }
-   ?>
-   <!doctype html>
-   <html lang="en">
-   <head>
-       <meta charset="utf-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
-       <title>User Dashboard</title>
-   </head>
-   <body>
-       <section class="py-5">
-           <div class="container">
-              
+ <?php
+session_start();
+if (!isset($_SESSION['user_id'])) {
+    header("Location: index.php"); // Redirect to login if not logged in
+    exit;
+}
+?>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>User Dashboard</title>
+</head>
+<body>
+    <section class="py-5">
+        <div class="container">
+            <h1>Welcome to your Dashboard</h1>
+            <p>Manage your tasks and profile here.</p>
+            <a href="tasks/index.php" class="btn btn-primary">View Tasks</a>
+            <a href="logout.php" class="btn btn-danger">Logout</a>
+        </div>
+    </section>
+</body>
+</html>
 
- <h1>Welcome to your Dashboard</h1>
-               <p>Manage your tasks and profile here.</p>
-               <a href="tasks/index.php" class="btn btn-primary">View Tasks</a>
-               <a href="logout.php" class="btn btn-danger">Logout</a>
-           </div>
-       </section>
-   </body>
-   </html>
    ```
 
 
