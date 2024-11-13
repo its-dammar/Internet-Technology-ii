@@ -147,6 +147,7 @@ This page handles the creation of new user records.
                     echo "<div class='alert alert-warning'>All fields are required.</div>";
                 }
             }
+            $conn->close();
             ?>
             <form action="" method="POST">
                 <div class="mb-3">
@@ -215,6 +216,7 @@ This page displays all users in a table format with options to view, edit, or de
                                 </td>
                               </tr>";
                     }
+                     $conn->close();
                     ?>
                 </tbody>
             </table>
@@ -269,6 +271,7 @@ The `edit.php` file allows users to update their existing details. This page ret
            echo "<div class='alert alert-warning'>All fields are required.</div>";
        }
    }
+    $conn->close();
    ?>
    <!doctype html>
    <html lang="en">
@@ -328,6 +331,7 @@ The `delete.php` file deletes a user from the database based on their `id`. Befo
    } else {
        echo "Invalid user ID!";
    }
+    $conn->close();
    ?>
    ```
 
@@ -401,6 +405,7 @@ The `register.php` file allows new users to create an account. Here’s a simple
                        echo "<div class='alert alert-warning'>All fields are required.</div>";
                    }
                }
+                $conn->close();
                ?>
                <form action="" method="POST">
                    <div class="mb-3">
