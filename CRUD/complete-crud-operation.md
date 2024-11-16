@@ -428,6 +428,87 @@ The `register.php` file allows new users to create an account. Here’s a simple
    </html>
    ```
 
+   ```
+   ### `LOGIN Page` login.php
+   <?php
+session_start(); // Start a new session or resume the existing session
+
+// Include database connection file
+require 'config/db.php';
+
+// Initialize error message
+$error = '';
+
+// Handle form submission
+if (isset($_POST['login'])) {
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+
+    // Check if email and password are not empty
+    if (!empty($email) && !empty($password)) {
+        // Retrieve user data from the database based on the email
+        $query = "SELECT * FROM users WHERE email = '$email'";
+        $result = mysqli_query($conn, $query);
+
+        if (mysqli_num_rows($result) > 0) {
+            $user = mysqli_fetch_assoc($result);
+
+            // Verify the password
+            if (password_verify($password, $user['password'])) {
+                // Set session variables for the logged-in user
+                $_SESSION['user_id'] = $user['id'];
+                $_SESSION['user_name'] = $user['name'];
+
+                // Redirect to the dashboard
+                header("Location: index.php");
+                exit;
+            } else {
+                $error = "Incorrect password. Please try again.";
+            }
+        } else {
+            $error = "No account found with that email.";
+        }
+    } else {
+        $error = "All fields are required.";
+    }
+}
+?>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+    <section class="py-5">
+        <div class="container w-50 p-3 shadow">
+            <h4>Login</h4>
+            <?php
+            // Display error message if there is one
+            if (!empty($error)) {
+                echo "<div class='alert alert-danger'>$error</div>";
+            }
+            ?>
+            <form action="" method="POST">
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" name="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" name="password" class="form-control" id="password" required>
+                </div>
+                <button type="submit" name="login" class="btn btn-primary">Login</button>
+                <p class="mt-3">Don't have an account? <a href="register.php">Register here</a></p>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
+```
+
 #### `dashboard.php` – User Dashboard
 
 The `dashboard.php` file serves as the main page for logged-in users, displaying information specific to their account or tasks.
