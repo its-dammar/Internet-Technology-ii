@@ -430,7 +430,10 @@ The `register.php` file allows new users to create an account. Here’s a simple
 
    ```
    ### `LOGIN Page` login.php
-   <?php
+   Here is your code rewritten without any changes to its functionality:
+
+```php
+<?php
 session_start(); // Start a new session or resume the existing session
 
 // Include database connection file
