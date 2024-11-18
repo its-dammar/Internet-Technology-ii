@@ -15,9 +15,16 @@
 - **`fclose()`**: Closes an open file to release resources.
 
 **File Modes:**
-- **`r`**: Open for reading.
-- **`w`**: Open for writing (truncates the file to zero length).
-- **`a`**: Open for writing (writes at the end of the file).
+| Mode | Description                                                        |
+|------|--------------------------------------------------------------------|
+| `"w"` | Write only. Creates or overwrites the file.                       |
+| `"r"` | Read only. The file must exist.                                   |
+| `"a"` | Append only. Creates the file if it doesn't exist.                |
+| `"w+"`| Write and read. Creates or overwrites the file.                   |
+| `"r+"`| Read and write. The file must exist.                              |
+| `"a+"`| Read and append. Creates the file if it doesn't exist.            |
+
+Use `"w"` mode when you want to **start fresh** with the file content.
 
 **Example: Writing to a File:**
 ```php
@@ -239,4 +246,6 @@ try {
   ```
 
 This example is short, easy to understand, and demonstrates how to use `try-catch` for basic file handling errors.
+
+
 
