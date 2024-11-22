@@ -21,6 +21,10 @@
     [Unit-5/Assignment](Unit-5/Assignments/assignment-5.md)
     [Unit-5/Notes](Unit-5/Notes/Notes.md)
 
+[Unit-6](Unit-6)
+    [Unit-6/Assignment](Unit-6/Assignments/assignment-6.md)
+    [Unit-6/Notes](Unit-6/Notes/Notes.md)
+
 
 ## 📁 File Structure
 
