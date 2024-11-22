@@ -24,7 +24,7 @@
 9. Write a PHP script to reverse a string without using built-in functions.  
 10. How can we validate and sanitize user input in PHP? Write a code example for validating an email address.  
 
-### **Section C: Real-Time Practical Problems** (20 Marks)  
+### **Section C: ** (20 Marks)  
 (Attempt any two. Each question carries 10 marks)  
 
 1.  Create a simple CRUD application to manage "Student Records" using PHP programming.  
@@ -56,7 +56,7 @@
 9. Write a PHP program to implement a calculator that performs basic operations (add, subtract, multiply, divide).  
 10. What is the purpose of multi-dimensional arrays? Write a script to create and display a multi-dimensional array.  
 
-### **Section C: Real-Time Practical Problems** (20 Marks)  
+### **Section C: ** (20 Marks)  
 (Attempt any two. Each question carries 10 marks)  
 
 11. Design a registration form using PHP and validate all input fields (Name, Email, Password).  
@@ -88,7 +88,7 @@
 9. Write a PHP script to display the current date and time in multiple formats.  
 10. Discuss the concept of validation and sanitization in PHP with a code example.  
 
-### **Section C: Real-Time Practical Problems** (20 Marks)  
+### **Section C: ** (20 Marks)  
 (Attempt any two. Each question carries 10 marks)  
 
 11. Write a PHP program to process a file upload and move the uploaded file to a specific directory.  
