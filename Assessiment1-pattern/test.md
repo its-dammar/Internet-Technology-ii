@@ -3,8 +3,8 @@
 
 ## **Question Paper 1**  
 
-**Full Marks**: 50  
-**Time**: 2 Hours  
+**Full Marks**: 50  ****
+**Time**: 2 Hours  ****
 
 ### **Section A: Short Answer Questions** (10 Marks)  
 (Attempt all questions. Each question carries 2 marks)  

@@ -3,7 +3,6 @@
 ### **Unit 5: File Handling, Sessions, and Error Handling in PHP**
 
 ---
-
 #### **5.1 Reading from and Writing to Files**
 
 - File handling refers to the process of reading from and writing to files on the server using PHP functions. Files are used for storing and retrieving data, making them essential for dynamic web applications.
