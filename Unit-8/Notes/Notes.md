@@ -195,13 +195,10 @@ Here’s a line graph-style representation of the directory structure of the Lar
 OR
 ```
 
-Here’s the refined and detailed directory structure of the Laravel framework:
-
 ### **Directory Structure of the Laravel Framework**
 
 Laravel organizes its files into a clear and standardized structure. Below is an in-depth explanation of the key directories and their functions within a Laravel project:
 
-```
 /app
     /Console        -> Contains Artisan commands for the application. These commands are used to perform tasks such as migrations, database seeding, and custom commands created for the application.
     /Exceptions     -> Stores the exception handling logic. Custom exception classes and the exception handler are found here.
@@ -243,9 +240,8 @@ Laravel organizes its files into a clear and standardized structure. Below is an
     /BrowserTests   -> Stores browser-based tests, which simulate real user interaction with the application.
     
 /vendor            -> This directory holds all the third-party dependencies installed via Composer. It includes Laravel's core files and any other external packages used in the project.
-```
 
-### **Explanation of Key Directories**
+
 
 1. **/app**: This directory contains the core of your application, including the controllers, models, and middleware that define the business logic.
 
@@ -267,7 +263,7 @@ By adhering to this structured directory layout, Laravel provides an organized w
 
 
 
-### **7. Description of MVC Components Architecture**
+### **7. MVC Components **
 
 The **Model-View-Controller (MVC)** architecture is one of the most popular design patterns for web development. Here's a deeper look at each component:
 
