@@ -298,7 +298,7 @@ To set up an MVC architecture:
 2. **Create the Controller:** Write controllers that handle requests, call the model for data, and pass it to the view.
 3. **Build the View:** Create views that display the data received from the controller.
 
-### **11. Task Management System (TMS) with Code Example**
+### **11. Task Management System (TMS) **
 
 For a simple TMS in Laravel, the directory structure and code would look as follows:
 
