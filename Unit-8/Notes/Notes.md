@@ -1,4 +1,3 @@
-Here's an enhanced version of the notes with a more professional tone, depth of content, and proper clarity while ensuring originality.
 
 ---
 
