@@ -198,7 +198,7 @@ OR
 ### **Directory Structure of the Laravel Framework**
 
 Laravel organizes its files into a clear and standardized structure. Below is an in-depth explanation of the key directories and their functions within a Laravel project:
-
+```
 /app
     /Console        -> Contains Artisan commands for the application. These commands are used to perform tasks such as migrations, database seeding, and custom commands created for the application.
     /Exceptions     -> Stores the exception handling logic. Custom exception classes and the exception handler are found here.
@@ -240,7 +240,7 @@ Laravel organizes its files into a clear and standardized structure. Below is an
     /BrowserTests   -> Stores browser-based tests, which simulate real user interaction with the application.
     
 /vendor            -> This directory holds all the third-party dependencies installed via Composer. It includes Laravel's core files and any other external packages used in the project.
-
+```
 
 
 1. **/app**: This directory contains the core of your application, including the controllers, models, and middleware that define the business logic.
