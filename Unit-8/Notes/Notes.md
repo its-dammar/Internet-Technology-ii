@@ -266,7 +266,7 @@ Laravel organizes its files into a clear and standardized structure. Below is an
 ---
 
 
-### **7. MVC Components **
+### 7. MVC Components 
 
 The **Model-View-Controller (MVC)** architecture is one of the most popular design patterns for web development. Here's a deeper look at each component:
 
