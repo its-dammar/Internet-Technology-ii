@@ -50,7 +50,7 @@ Here’s an overview of some of the most popular PHP frameworks, their uses, fea
    - **Features:** CakePHP promotes using pre-defined naming conventions to speed up development. It includes features like built-in validation, authentication, and routing.
    - **Differences:** CakePHP’s strict convention-based development approach helps developers write applications quickly, but it may be challenging for those used to more flexible frameworks.
 
-### **4. Definition of MVC with a Code Example**
+### **4. MVC**
 
 **MVC (Model-View-Controller)** is a software architectural pattern that divides an application into three interconnected components: **Model**, **View**, and **Controller**. This separation enhances the modularity of the application, making it easier to manage, test, and scale.
 
@@ -58,7 +58,7 @@ Here’s an overview of some of the most popular PHP frameworks, their uses, fea
 - **View:** Represents the user interface, responsible for presenting data to the user.
 - **Controller:** Acts as the intermediary between the Model and View. It receives user input, processes it, and returns a response by updating the View.
 
-**Code Example:**
+**Example:**
 ```php
 // Model: User.php
 class User {
@@ -148,7 +148,7 @@ Here’s a line graph-style representation of the directory structure of the Lar
 ├── /vendor
 ```
 
-### **Graphical Structure Breakdown**
+### **Stucture**
 1. **/app** - Core application logic (controllers, middleware, models).
    - **/Console** - Custom Artisan commands.
    - **/Exceptions** - Exception handling.
