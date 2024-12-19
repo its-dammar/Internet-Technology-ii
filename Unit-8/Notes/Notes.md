@@ -240,6 +240,10 @@ Laravel organizes its files into a clear and standardized structure. Below is an
     /BrowserTests   -> Stores browser-based tests, which simulate real user interaction with the application.
     
 /vendor            -> This directory holds all the third-party dependencies installed via Composer. It includes Laravel's core files and any other external packages used in the project.
+
+/.env              -> The environment configuration file. This file contains sensitive settings such as database credentials, API keys, and other environment-specific configurations. It's crucial for managing application settings across different environments (local, production, staging).
+
+
 ```
 
 
