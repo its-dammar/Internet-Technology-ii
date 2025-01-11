@@ -25,48 +25,56 @@
     [Unit-6/Assignment](Unit-6/Assignments/assignment-6.md)
     [Unit-6/Notes](Unit-6/Notes/Notes.md)
 
+[Unit-7](Unit-7)
+    [Unit-7/Assignment](Unit-7/Assignments/assignment-7.md)
+    [Unit-7/Notes](Unit-7/Notes/Notes.md)
+
+[Unit-8](Unit-8)
+    [Unit-8/Assignment](Unit-8/Assignments/assignment-8.md)
+    [Unit-8/Notes](Unit-8/Notes/Notes.md)
+
 
 ## 📁 File Structure
 
 ```plaintext
 PHP-Course
 │
-├── Unit-1 
+├──📁 Unit-1 
 │   ├── Assignment 
 │   └── Notes
 │
-├── Unit-2
+├──📁 Unit-2
 │   ├── Assignment
 │   └── Notes
 │
-├── Unit-3
+├──📁 Unit-3
 │   ├── Assignment
 │   └── Notes
 │
-├── Unit-4
+├──📁 Unit-4
 │   ├── Assignment
 │   └── Notes
 │
-├── Unit-5
+├──📁 Unit-5
 │   ├── Assignment
 │   └── Notes
 │
-├── Unit-6
+├──📁 Unit-6
 │   ├── Assignment
 │   └── Notes
 │
-├── Unit-7
+├──📁 Unit-7
 │   ├── Assignment
 │   └── Notes
 │
-└── Unit-8
+└──📁 Unit-8
     ├── Assignment
     └── Notes
 
 *************************************
 
 **Course Structure**
-Unit 1 [4 Hrs]
+📁 Unit 1 [4 Hrs]
     ├── 1.1 Understanding server-side scripting and PHP Programming
     ├── 1.2 Installing and setting up PHP development environment (XAMPP, WAMP, or alternatives)
     ├── 1.3 Basic syntax and data types
@@ -76,7 +84,7 @@ Unit 1 [4 Hrs]
         ├── 1.5.2 Assignment Operators
         └── 1.5.3 Logical Operators
 
-Unit 2 [5 Hrs]
+📁 Unit 2 [5 Hrs]
     ├── 2.1 Conditional Statements
     │   ├── 2.1.1 If, Else, Elseif
     │   ├── 2.1.2 Ternary Operator
@@ -85,7 +93,7 @@ Unit 2 [5 Hrs]
         ├── 2.2.1 While, Do...While, For
         └── 2.2.2 Continue and Break
 
-Unit 3 [7 Hrs]
+📁 Unit 3 [7 Hrs]
     ├── 3.1 Working with Array
     │   ├── 3.1.1 Indexed Array
     │   ├── 3.1.2 Associative Array
@@ -100,7 +108,7 @@ Unit 3 [7 Hrs]
         ├── 3.3.1 Passing arguments and Return
         └── 3.3.2 Variable Scoping
 
-Unit 4 [6 Hrs]
+📁 Unit 4 [6 Hrs]
     ├── 4.1 Processing HTML forms with PHP
     ├── 4.2 Working with HTTP Request (GET, POST, SERVER)
     ├── 4.3 Preserving User Input
@@ -109,7 +117,7 @@ Unit 4 [6 Hrs]
     ├── 4.6 File Upload
     └── 4.7 Send Email
 
-Unit 5 [6 Hrs]
+📁 Unit 5 [6 Hrs]
     ├── 5.1 Reading from and writing to files
     ├── 5.2 Understanding file permissions and security considerations
     ├── 5.3 File Inclusion (Include and Require)
@@ -117,7 +125,7 @@ Unit 5 [6 Hrs]
     ├── 5.5 Implementing session-based authentication and authorization
     └── 5.6 Error handling in PHP: try-catch blocks, exception handling
 
-Unit 6 [8 Hrs]
+📁 Unit 6 [8 Hrs]
     ├── 6.1 Introduction to MySQL database management system
     ├── 6.2 Connecting PHP with MySQL database
     ├── 6.3 Performing CRUD operations (Create, Read, Update, Delete)
@@ -125,7 +133,7 @@ Unit 6 [8 Hrs]
     ├── 6.5 User Registration and Login
     └── 6.6 Error handling and transaction management
 
-Unit 7 [6 Hrs]
+📁 Unit 7 [6 Hrs]
     ├── 7.1 Object-oriented programming (OOP) in PHP
     ├── 7.2 Creating and using classes and objects
     ├── 7.3 Properties and Methods
@@ -134,7 +142,7 @@ Unit 7 [6 Hrs]
     ├── 7.6 Magic Methods
     └── 7.7 Practical applications of OOP in PHP development
 
-Unit 8 [6 Hrs]
+📁 Unit 8 [6 Hrs]
     ├── 8.1 MVC Model
     ├── 8.2 Benefits of using the PHP Framework
     └── 8.3 Getting Started with PHP Framework
